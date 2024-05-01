@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+}
+body {
+    height: 140vh;
+    width: 100%;
+}
+
+.contenedor {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+
+}
+
+header {
+    display: flex;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+}
+.encabezado{
+    display: grid;
+    place-content: center;
+    width: 50%;
+    height: 100%;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+.iconos{
+    position: absolute;
+    display: flex;
+    place-content: center;
+    right: 40px;
+    width: 20%;
+    height: 100%;
+}
+.f20{
+    padding: 10px;
+    font-size: 22pt;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+    position: relative;
+    width: 100%;
+    height: 45%;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 40%;
+    background-image: url(/tp0/img/wall.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.descripcion {
+    display: flex;
+    position: relative;
+    position: absolute;
+    bottom: 15%;
+    width: 80%;
+    height: 45%;
+
+}
+
+.desctitulo {
+    display: flex;
+    position: absolute;
+    font-size: 30pt;
+    top: 8px;
+    width: 50%;
+    height: 30%;
+}
+
+.desctexto {
+    display: flex;
+    position: absolute;
+    bottom: 8px;
+    left: 15%;
+    width: 35%;
+    height: 60%;
+    font-size: 11pt;
+}
+
+.descimagen {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    width: 50%;
+    height: 90%;
+    background-image: url(/tp0/img/descrip1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65%;
+
+}
+
+.productos {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    width: 80%;
+    height: 50%;
+    
+
+
+}
+
+.obra1 {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    position: relative;
+    height: 100%;
+    width: 25%;
+    background-color:rgb(44, 231, 222);
+}
+
+.obra2 {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    position: relative;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 0, 128);
+}
+
+.obra3 {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    position: relative;
+    height: 100%;
+    width: 25%;
+    background-color:rgb(255, 0, 170);
+}
+
+.obra4 {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    position: relative;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(10, 219, 226);
+}
+
+.obrafoto {
+    display: grid;
+    height: 55%;
+    width: 90%;
+    background-image: url(/tp0/img/lisaMona.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.obrafoto2 {
+    display: grid;
+    height: 55%;
+    width: 90%;
+    background-image: url(/tp0/img/gritoel.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.obrafoto3 {
+    display: grid;
+    height: 55%;
+    width: 90%;
+    background-image: url(/tp0/img/minita.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.obrafoto4 {
+    display: grid;
+    height: 55%;
+    width: 90%;
+    background-image: url(/tp0/img/florero.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    height: 40%;
+    width: 80%;
+    font-size: 11pt;
+
+}
+
+.textup {
+    font-weight: bolder;
+    height: 20% auto;
+    width: 100%;
+    font-size: 11pt;
+}
+
+.textdown {
+    display: flex;
+    position: absolute;
+    font-size: 9pt;
+    height: 80% auto;
+    width: 100%;
+}
+
+.staff {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 40%;
+}
+.titulostaff{
+    display: flex;
+    place-items: center;
+    place-content: center;
+    height: 20%;
+    width: 100%;
+
+    font-size: 18pt;
+    font-weight: bold;
+}
+.staffs{
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+.staff1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 33%;
+
+}
+.staff2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 33%;
+
+
+}
+.staff3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 34%;
+
+
+}
+.foto{
+    display: flex;
+    position: absolute;
+    left: 36%;
+    height: 60%;
+    width: 120px;
+    border-radius: 50%;
+    background-image: url(/tp0/img/random1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.foto2{
+    display: flex;
+    position: absolute;
+    left: 36%;
+    height: 60%;
+    width: 120px;
+    border-radius: 50%;
+    background-image: url(/tp0/img/random2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.foto3{
+    display: flex;
+    position: absolute;
+    left: 36%;
+    height: 60%;
+    width: 120px;
+    border-radius: 50%;
+    background-image: url(/tp0/img/random3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    place-content: center;
+    place-items: center;
+    bottom: 0;
+    height: 40%;
+    width: 100%;
+    font-size: 11pt;
+}
+
+.nombre{
+    display: flex;
+    place-content: center;
+    height: 30%;
+    width: 100%;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.datos{
+    display: flex;
+    place-content: center;
+    height: 60%;
+    width: 100%;
+    font-size: 11pt;
+}
+
+footer {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    height: 5%;
+    width: 100%;
+    font-size: 16pt;
+}
